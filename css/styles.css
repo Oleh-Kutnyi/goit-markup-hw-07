@@ -903,8 +903,8 @@ color: var(--pure-white-color);
 .footer-form-icon {
     fill: #FFFFFF;
     position: relative;
-    top: 5px;
-    right: -5px;
+    top: 0;
+    right: -10px;
 
 }
 
