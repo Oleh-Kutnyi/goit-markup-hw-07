@@ -126,12 +126,12 @@ h2 {
 }
 
 
-.header__nav-current{
+.header-nav__current{
     position: relative;
     color: var(--blue-color-text);
 }
 
-.header__nav-current::after {
+.header-nav__current::after {
     content:"";
     
     position: absolute;
@@ -148,13 +148,13 @@ h2 {
 }
 
 
-.header__nav {
+.header-nav {
     margin-right: auto;
 }
 
 
 
-.header__nav-list {
+.header-nav__list {
     display: flex;
 }
 
@@ -163,12 +163,12 @@ h2 {
 }
 
 
-.header__nav-item:hover,
-.header__nav-link:focus {
+.header-nav__item:hover,
+.header-nav__link:focus {
     color: var(--blue-color-text);
 }
 
-.header__nav-item{
+.header-nav__item{
     
     font-style: normal;
     font-weight: 500;
@@ -185,12 +185,12 @@ h2 {
 
 }
 
-.header__nav-item:last-child {
+.header-nav__item:last-child {
     margin-right: 0;
 }
 
 
-.header__nav-contacts {
+.header-nav__contacts {
     
     font-style: normal;
     font-weight: 500;
@@ -208,23 +208,23 @@ h2 {
 
 
 
-.header__nav-contacts:hover,
-.header__nav-contacts:focus{
+.header-nav__contacts:hover,
+.header-nav__contacts:focus{
      color: var(--blue-color-text);
 }
 
 
-.header__nav-contacts:hover .header__nav-icon{
+.header-nav__contacts:hover .header-nav__icon{
     fill: var(--blue-color-text);
 }
 
-.header__nav-contacts:focus .header__nav-icon {
+.header-nav__contacts:focus .header-nav__icon {
     fill: var(--blue-color-text);
 }
 
 /* Header Icons */
 
-.header__nav-icon {
+.header-nav__icon {
     fill: #757575;
     transition-property: fill;
     transition-duration: 250ms;
@@ -250,7 +250,7 @@ h2 {
     padding: 200px 0;
 }
 
-.hero-img {
+.hero__section-img {
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img/Img.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -260,7 +260,7 @@ h2 {
 
 }
 
-.hero-title {
+.hero__section-title {
     
     font-style: normal;
     font-weight: 900;
@@ -274,7 +274,7 @@ h2 {
     
 
 }
-.hero-btn {
+.hero__section-btn {
     
     font-style: normal;
     font-weight: 700;
@@ -300,7 +300,7 @@ h2 {
 
 
 
-.hero-btn:hover, .hero-btn:focus {
+.hero__section-btn:hover, .hero__section-btn:focus {
 
     background: #188CE8;
     border: #188CE8 solid;
