@@ -59,7 +59,7 @@
     justify-content: space-between;
 }
 
-.card-set-items {
+.card-set__items {
 flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
 }
 
@@ -367,7 +367,7 @@ h2 {
 
 
 
-.box-section-title{
+.box-section__title{
     
     font-style: normal;
     font-weight: 700;
@@ -378,12 +378,12 @@ h2 {
     color: var(--title-color);
 }
 
-.box-item-div {
+.box-section__item {
     position: relative;
     display: flex;
 }
 
-.box-item-title {
+.box-section__item-title {
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
