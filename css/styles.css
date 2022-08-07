@@ -729,6 +729,7 @@ color: var(--pure-white-color);
 }
 
 
+
 /* Icons Settings */
 
 /* Social Icons */
@@ -822,8 +823,14 @@ color: var(--pure-white-color);
 
 /* Footer Form */
 
+
+.footer-form {
+    display: flex;
+}
+
 .footer-form-text{
-    display: block;
+ display: block;
+
 
     font-family: 'Roboto';
     font-weight: 700;
@@ -848,14 +855,27 @@ color: var(--pure-white-color);
     padding-bottom: 15px;
     padding-left: 16px;
 
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
     width: 358px;
     height: 50px;
+
     margin-right: 12px;
 
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
 }
 
-.footer-form-btn {
+
+.footer-form-btn { 
     padding: 10px 28px;
 
     background: var(--blue-color-text);
@@ -873,6 +893,10 @@ color: var(--pure-white-color);
     color: #FFFFFF;
     cursor: pointer;
 
+
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -884,7 +908,9 @@ color: var(--pure-white-color);
 
 }
 
-
+.footer-form-section {
+    margin-left: 90px;
+}
 
 
 /* Client Icons */
@@ -1004,7 +1030,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 
     width: 520px;
     height: 580px;
-    padding: 30px;
+    padding: 40px;
 
 
     background-color: #FFFFFF;
