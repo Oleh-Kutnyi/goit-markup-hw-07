@@ -783,7 +783,7 @@ transition: transform 250ms ease-in-out;
 }
 
 
-.footer-logo {
+.footer-section__logo {
 
         font-family: 'Raleway';
             font-style: normal;
@@ -795,13 +795,13 @@ transition: transform 250ms ease-in-out;
 
 }
 
-.footer-logo-studio {
+.footer-section__logo-studio {
 color: var(--pure-white-color);
 }
 
 
 
-.footer-text {
+.footer-section__text {
     
     font-style: normal;
     font-weight: 400;
@@ -815,7 +815,7 @@ color: var(--pure-white-color);
 }
 
 
-.footer-contacts {
+.footer-section__contacts {
     
     font-style: normal;
     font-weight: 400;
@@ -829,22 +829,22 @@ color: var(--pure-white-color);
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-item {
+.footer-section__item {
     margin-bottom: 10px;
 
 }
 
-.footer-list-item:last-child {
+.footer-section__item:last-child {
     margin-bottom: 0px;
 }
 
 
-.footer-contacts:hover,
-.footer-contacts:focus {
+.footer-section__contacts:hover,
+.footer-section__contacts:focus {
     color: var(--blue-color-text);
 }
 
-.social-footer-text {
+.social-footer__text {
   
     font-weight: 700;
     font-size: 14px;
@@ -859,28 +859,28 @@ color: var(--pure-white-color);
 
 /* Footer Icons */
 
-.social-footer-list {
+.social-footer__list {
         display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
 }
 
-.social-footer-icon {
+.social-footer__icon {
     fill: var(--pure-white-color);
 }
 
-.social-footer-link:hover {
+.social-footer__link:hover {
     background-color: var(--blue-color-text);
 }
 
-.social-footer-link:focus {
+.social-footer__link:focus {
     background-color: var(--blue-color-text);
 }
 
 
 
-.social-footer-link {
+.social-footer__link {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -904,7 +904,7 @@ color: var(--pure-white-color);
     display: flex;
 }
 
-.footer-form-text{
+.footer-form__text{
  display: block;
 
 
@@ -921,7 +921,7 @@ color: var(--pure-white-color);
 
 }
 
-.footer-form-input {
+.footer-form__input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -951,7 +951,7 @@ color: var(--pure-white-color);
 }
 
 
-.footer-form-btn { 
+.footer-form__btn { 
     padding: 10px 28px;
 
     background: var(--blue-color-text);
@@ -976,7 +976,7 @@ color: var(--pure-white-color);
 }
 
 
-.footer-form-icon {
+.footer-form__icon {
     fill: #FFFFFF;
     position: relative;
     top: 0;
@@ -984,7 +984,7 @@ color: var(--pure-white-color);
 
 }
 
-.footer-form-section {
+.footer-form__section {
     margin-left: 90px;
 }
 
@@ -1056,7 +1056,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 
 
 
-.modal-btn {
+.modal__btn {
 
    display: flex;
    align-items: center;
@@ -1085,7 +1085,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 }
 
 
-.modal-btn:hover, .modal-btn:focus {
+.modal__btn:hover, .modal__btn:focus {
     fill: var(--blue-color-text);
 }
 
@@ -1097,7 +1097,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 }
 
 
-.form-title {
+.form-modal__title {
     font-family: 'Roboto';
     
     font-weight: 700;
@@ -1112,22 +1112,22 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
     text-align: center;
 }
 
-.form-group {
+.form-modal__group {
     margin-top: 12px;
 }
 
-.form-label {
+.form-modal__label {
     display: block;
     position: relative;
     margin-bottom: 10px;
 }
 
-.form-label:last-child {
+.form-modal__label:last-child {
     margin-bottom: 0px;
 }
 
 
-.form-text {
+.form-modal__text {
     display: block;
     text-align: left;
     margin-bottom: 4px;
@@ -1142,7 +1142,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 
 }
 
-.form-input {
+.form-modal__input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 10px;
@@ -1160,32 +1160,32 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 }
 
 
-.form-input:hover {
+.form-modal__input:hover {
     border: 1px solid var(--blue-color-text);
 }
 
-.form-input:hover + .form-icon {
+.form-modal__input:hover + .form-modal__icon {
     fill: var(--blue-color-text);
 }
 
-.form-input:focus-within + .form-icon {
+.form-modal__input:focus-within + .form-modal__icon {
     fill: var(--blue-color-text);
 }
 
-.form-input:focus-within {
+.form-modal__input:focus-within {
     border: 1px solid var(--blue-color-text) ;
 }
 
-.form-label-textarea:focus-within {
+.form-modal__textarea:focus-within {
     border: 1px solid var(--blue-color-text);
 }
 
-.form-label-textarea:hover {
+.form-modal__textarea:hover {
     border: 1px solid var(--blue-color-text);
 }
 
 
-.form-label-textarea {
+.form-modal__textarea {
     
     display: block;
     position: relative;
@@ -1211,7 +1211,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 
 }
 
-.form-icon {
+.form-modal__icon {
     position: absolute;
     bottom: 10px;
     left: 12px;
@@ -1224,7 +1224,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 }
 
 
-.form-agreement {
+.form-modal__agreement {
     margin-top: 20px;
     margin-bottom: 30px;
 
@@ -1233,28 +1233,28 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
     gap: 6px;
 }
 
-.form-checkbox:checked + .form-agr-icon .form-icon-emptymark {
+.form-modal__checkbox:checked + .form-modal__agr-icon .form-modal__icon__emptymark {
     opacity: 0;
 
 }
 
-.form-checkbox:checked+.form-agr-icon .form-icon-checkmark {
+.form-modal__checkbox:checked+.form-modal__agr-icon .form-modal__icon__checkmark {
   opacity: 1;
 }
 
 
-.form-agr-icon {
+.form-modal__agr-icon {
     position: absolute;
     margin-left: 15px;
 
 }
 
 
-.form-icon-checkmark{
+.form-modal__icon__checkmark{
     opacity: 0;
 }
 
-.form-agr-text {
+.form-modal__agr-text {
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 14px;
@@ -1266,7 +1266,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
         margin-left: 40px;
 }
 
-.form-agr-link {
+.form-modal__agr-link {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -1278,7 +1278,7 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
         color: #2196F3;
 }
 
-.form-btn {
+.form-modal__btn {
     display: inline-flex;
     align-items: center;
     
@@ -1311,7 +1311,7 @@ transition-property: background, border, box-shadow;
 
 
 
-.form-btn:hover, .form-btn:focus {
+.form-modal__btn:hover, .form-modal__btn:focus {
     
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
