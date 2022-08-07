@@ -357,7 +357,6 @@ h2 {
     color: var(--text-color);
 }
 
-
 /* Box Section */
 
 .box-section {
@@ -406,27 +405,24 @@ h2 {
 .team-section {
     background: var(--team-background-color);
 }
-.team-wrap {
+
+.team-section__back {
+    background-color: var(--pure-white-color);
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 5px;
     padding-right: 5px;
-    
 }
-
-.team-back{
-    background-color: var(--pure-white-color);
-}
-.team-section-flex-list{
+.team-section__flex {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
 }
-.team-item {
+.team-section__item {
     flex-basis: calc (100% - var(--indent) * (var(--items) - 1 ) / var(--items));
 }
-.team-shadow {
+.team-section__shadow {
 
     box-shadow: 
     0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -434,7 +430,7 @@ h2 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.team-section-h2title {
+.team-section__h2title {
     
     font-style: normal;
     font-weight: 700;
@@ -445,11 +441,11 @@ h2 {
     color: var(--title-color);
 }
 
-.team-section-h3title {
+.team-section__h3title {
     padding-bottom: 10px;
 }
 
-.team-section-list  .team-section-h3title{
+.team-section__list  .team-section__h3title{
     
     font-style: normal;
     font-weight: 500;
@@ -461,7 +457,7 @@ h2 {
 }
 
 
-.team-section-list  .team-section-text {
+.team-section__list  .team-section__text {
     
     font-style: normal;
     font-weight: 400;
@@ -472,7 +468,7 @@ h2 {
     color: var(--text-color);
 
 }
-.team-section-text {
+.team-section__text {
     margin-bottom: 16px;
 }
 
@@ -736,14 +732,14 @@ color: var(--pure-white-color);
 
 /* Social Icons */
 
-.social-team-list {
+.social-team__list {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.social-team-link {
+.social-team__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -758,7 +754,7 @@ color: var(--pure-white-color);
 
 }
 
-.social-team-icon {
+.social-team__icon {
     fill: var(--logo-color--);
     
     transition-property: fill;
@@ -766,20 +762,20 @@ color: var(--pure-white-color);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-team-link:hover {
+.social-team__link:hover {
     background-color: var(--blue-color-text);
 
 }
 
-.social-team-link:focus {
+.social-team__link:focus {
     background-color: var(--blue-color-text);
 }
 
-.social-team-link:focus .social-team-icon{
+.social-team__link:focus .social-team__icon{
     fill: var(--pure-white-color);
 }
 
-.social-team-link:hover   .social-team-icon {
+.social-team__link:hover   .social-team__icon {
     fill: var(--pure-white-color);
 }
 
