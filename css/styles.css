@@ -236,21 +236,22 @@ h2 {
 /* Main(Index.HTML)*/
 /* Hero-Section */
 
-.hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
-}
-
 .hero-section {
     background: var(--main-background-color);
     padding: 200px 0;
 }
 
-.hero__section-img {
+
+.hero-section__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.hero-section__img {
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img/Img.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -260,7 +261,7 @@ h2 {
 
 }
 
-.hero__section-title {
+.hero-section__title {
     
     font-style: normal;
     font-weight: 900;
@@ -274,7 +275,7 @@ h2 {
     
 
 }
-.hero__section-btn {
+.hero-section__btn {
     
     font-style: normal;
     font-weight: 700;
@@ -300,7 +301,7 @@ h2 {
 
 
 
-.hero__section-btn:hover, .hero__section-btn:focus {
+.hero-section__btn:hover, .hero-section__btn:focus {
 
     background: #188CE8;
     border: #188CE8 solid;
@@ -318,23 +319,24 @@ h2 {
     background: var(--pure-white-color);
 }
 
-.underbox-flex {
-    display: flex;
-    align-items:baseline;
-    gap: 30px;
-    justify-content: space-between;
-}
 
-
-.underbox-item {
+.underbox__list__item {
     width: 270px; 
 }
 
-.underbox-title {
+.underbox__list__title {
     margin-bottom: 10px;
 }
 
-.underbox-list .underbox-title {
+.underbox__list {
+        display: flex;
+            align-items: baseline;
+            gap: 30px;
+            justify-content: space-between;
+}
+
+
+.underbox__list .underbox__list__title {
     
     font-style: normal;
     font-weight: 700;
@@ -345,7 +347,7 @@ h2 {
     color: var(--title-color);
 }
 
-.underbox-list .underbox-text{
+.underbox__list .underbox__list__text{
     
     font-style: normal;
     font-weight: 400;
@@ -354,6 +356,8 @@ h2 {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
+
 /* Box Section */
 
 .box-section {
@@ -962,9 +966,8 @@ color: var(--pure-white-color);
 }
 
 
-
 /* Underbox Icons */
-.underbox-icon-list {
+.underbox__list-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -972,7 +975,7 @@ color: var(--pure-white-color);
     margin-bottom: 30px;
 
 }
-.underbox-link {
+.underbox__list-icon__link {
     
     display: flex;
     align-items: center;
@@ -1010,7 +1013,6 @@ transition: opacity 600ms ease-out, visibility 600ms ease-out;
 
 
 }
-
 
 .backdrop.is-hidden {
     opacity: 0;
