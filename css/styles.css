@@ -907,7 +907,7 @@ h2 {
 } */
 
 /* .modal {
-  /* position: relative; */
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -963,7 +963,7 @@ h2 {
 
 /* Modal Form */
 
-.form-modal {
+/* .form-modal {
   text-align: center;
 }
 
@@ -1168,4 +1168,4 @@ h2 {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: #188ce8;
-}
+} */
