@@ -291,7 +291,7 @@ h2 {
 
 /* Underbox */
 
-.underbox {
+/* .underbox {
   background: var(--pure-white-color);
 }
 
@@ -329,7 +329,6 @@ h2 {
   color: var(--text-color);
 }
 
-/* Underbox Icons */
 .underbox__list-icon {
   display: flex;
   align-items: center;
@@ -345,7 +344,7 @@ h2 {
   width: 270px;
   height: 120px;
   background-color: var(--team-background-color);
-}
+}  */
 
 /* Box Section */
 
