@@ -498,7 +498,7 @@ h2 {
 
 /* Client Section */
 
-.client-section__title {
+/* .client-section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -506,11 +506,10 @@ h2 {
   letter-spacing: 0.03em;
 
   color: var(--title-color);
-}
+} */
 
-/* Client Icons */
 
-.client-section__list {
+/* .client-section__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -552,7 +551,7 @@ h2 {
 
 .client-section__link:focus {
   border-color: var(--blue-color-text);
-}
+} */
 
 /* Portfolio.HTML */
 /* Main */
