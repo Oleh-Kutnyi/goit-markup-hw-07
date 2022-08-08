@@ -1,12 +1,17 @@
 /* Card Set */
 
-// .card-set {
-//     display: flex;
-//     flex-wrap: wrap;
-//     gap: var(--indent);
-//     justify-content: space-between;
-// }
+$indent: 30px;
+$items: 4;
 
-// .card-set__items {
-//     flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
-// }
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var($indent);
+    justify-content: space-between;
+}
+
+
+@mixin card-set__items($indent, $item) {
+    flex-basis: calc((100% - #{$indent} * (#{$item} - 1)) / #{$item});
+}
