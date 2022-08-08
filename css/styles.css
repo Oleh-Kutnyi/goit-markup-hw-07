@@ -1,6 +1,8 @@
 /* General */
 
 /* :root {
+  --main-font-family: "Roboto" ;
+  --secondary-font-family: "Raleway" ;
   --title-color: #212121;
   --text-color: #757575;
   --main-background-color: #2f303a;
@@ -105,7 +107,7 @@ h2 {
 
 /* Header */
 
-.header {
+/* .header {
   background-color: var(--pure-white-color);
   padding-top: 24px;
   padding-bottom: 24px;
@@ -126,9 +128,9 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--blue-color-text);
   margin-right: 90px;
-}
+} */
 
-.header-nav__current {
+/* .header-nav__current {
   position: relative;
   color: var(--blue-color-text);
 }
@@ -146,21 +148,21 @@ h2 {
 
   background-color: #2196f3;
   border-radius: 2px;
-}
+} */
 
-.header-nav {
+/* .header-nav {
   margin-right: auto;
 }
 
 .header-nav__list {
   display: flex;
-}
+} */
 
-.header__logo__studio {
+/* .header__logo__studio {
   color: var(--black-color-text);
-}
+} */
 
-.header-nav__item:hover,
+/* .header-nav__item:hover,
 .header-nav__link:focus {
   color: var(--blue-color-text);
 }
@@ -208,16 +210,16 @@ h2 {
 
 .header-nav__contacts:focus .header-nav__icon {
   fill: var(--blue-color-text);
-}
+} */
 
 /* Header Icons */
 
-.header-nav__icon {
+/* .header-nav__icon {
   fill: #757575;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Main(Index.HTML)*/
 /* Hero-Section */
