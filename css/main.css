@@ -374,7 +374,6 @@ h2 {
 .team-section {
   background: var(--team-background-color);
 }
-
 .team-section__back {
   background-color: var(--pure-white-color);
   padding-top: 30px;
@@ -382,7 +381,6 @@ h2 {
   padding-left: 5px;
   padding-right: 5px;
 }
-
 .team-section__flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,13 +392,11 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .team-section__shadow {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-section__h2title {
   font-style: normal;
   font-weight: 700;
@@ -410,12 +406,10 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-
 .team-section__h3title {
   padding-bottom: 10px;
 }
-
-.team-section__list .team-section__h3title {
+.team-section__h3title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -424,8 +418,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-
-.team-section__list .team-section__text {
+.team-section__text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -434,7 +427,6 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 .team-section__text {
   margin-bottom: 16px;
 }
