@@ -492,9 +492,6 @@ h2 {
   fill: var(--pure-white-color);
 }
 
-.client-section {
-  /* Client Icons */
-}
 .client-section__title {
   font-weight: 700;
   font-size: 36px;
@@ -503,6 +500,8 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+
+/* Client Icons */
 .client-section__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,6 +514,7 @@ h2 {
           justify-content: center;
   gap: 30px;
 }
+
 .client-section__icon {
   fill: var(--logo-color--);
   -webkit-transition-property: fill;
@@ -524,6 +524,7 @@ h2 {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .client-section__link {
   display: -webkit-box;
   display: -ms-flexbox;
