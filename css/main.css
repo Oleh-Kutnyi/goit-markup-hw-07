@@ -73,7 +73,7 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: var(30px);
+  gap: var(--indent);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
