@@ -387,7 +387,7 @@ h2 {
 
 /* Team Section */
 
-.team-section {
+/* .team-section {
   background: var(--team-background-color);
 }
 
@@ -447,11 +447,11 @@ h2 {
 }
 .team-section__text {
   margin-bottom: 16px;
-}
+} */
 
 /* Social Icons */
 
-.social-team__list {
+/* .social-team__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -494,7 +494,7 @@ h2 {
 
 .social-team__link:hover .social-team__icon {
   fill: var(--pure-white-color);
-}
+} */
 
 /* Client Section */
 

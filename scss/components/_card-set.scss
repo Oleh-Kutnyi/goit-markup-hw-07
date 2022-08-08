@@ -11,6 +11,9 @@ $items: 4;
     justify-content: space-between;
 }
 
+// .card-set__items {
+//     flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
+
 
 @mixin card-set__items($indent, $item) {
     flex-basis: calc((100% - #{$indent} * (#{$item} - 1)) / #{$item});
