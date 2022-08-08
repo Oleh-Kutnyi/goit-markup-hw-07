@@ -1,0 +1,105 @@
+.footer-section {
+    background: var(--main-background-color);
+    padding: 60px 0px;
+    
+    &__logo {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: var(--blue-color-text);
+        &__studio {
+            color: var(--pure-white-color);
+        }
+    }
+    
+    
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--pure-white-color);
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    &__contacts {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover,
+        &:focus {
+            color: var(--blue-color-text);
+        }
+    }
+    
+    
+    &__item {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+
+
+
+.social-footer__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: var(--pure-white-color);
+}
+
+
+.social-footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-footer__icon {
+    fill: var(--pure-white-color);
+}
+
+.social-footer__link:hover {
+    background-color: var(--blue-color-text);
+}
+
+.social-footer__link:focus {
+    background-color: var(--blue-color-text);
+}
+
+.social-footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--pure-white-color);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

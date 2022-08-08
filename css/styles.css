@@ -688,19 +688,19 @@ h2 {
 
 /* Footer  */
 
-.footer-section {
+/* .footer-section {
   background: var(--main-background-color);
   padding: 60px 0px;
-}
+} */
 
-.footer-container {
+/* .footer-container {
   display: flex;
   justify-content: baseline;
   align-items: baseline;
   gap: 70px;
-}
+} */
 
-.footer-section__logo {
+/* .footer-section__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -710,7 +710,7 @@ h2 {
   color: var(--blue-color-text);
 }
 
-.footer-section__logo-studio {
+.footer-section__logo__studio {
   color: var(--pure-white-color);
 }
 
@@ -749,9 +749,9 @@ h2 {
 .footer-section__contacts:hover,
 .footer-section__contacts:focus {
   color: var(--blue-color-text);
-}
+} */
 
-.social-footer__text {
+/* .social-footer__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -760,11 +760,11 @@ h2 {
   margin-bottom: 20px;
 
   color: var(--pure-white-color);
-}
+} */
 
 /* Footer Icons */
 
-.social-footer__list {
+/* .social-footer__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -796,7 +796,7 @@ h2 {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Footer Form */
 
