@@ -13,4 +13,66 @@
   /* formula */
   --indent: 30px;
   --items: 4;
+}
+
+.viasualy-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1;
+  height: 1;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* reset styles */
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+/* Card Set */
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  padding: 94px 0px;
 }/*# sourceMappingURL=main.css.map */

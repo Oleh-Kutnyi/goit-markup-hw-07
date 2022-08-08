@@ -1,1 +1,18 @@
-@import "./utils/variables"
+
+// Utils Styles
+
+@import "./utils/variables" ;
+@import "./utils/viasualy-hidden" ;
+
+// Base Styles
+
+@import "./base/base" ;
+@import "./base/reset" ;
+
+// Components Styles
+
+@import "./components/card-set" ;
+@import "./components/container" ;
+@import "./components/section";
+
+// Layout Styles

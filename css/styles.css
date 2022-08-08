@@ -20,21 +20,12 @@
 
 /* others */
 
-.body {
+/* .body {
   font-family: "Roboto", sans-serif;
-}
+} */
 
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 
-  /* outline: red 2px solid; */
-}
-
-.viasualy-hidden {
+/* .viasualy-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1;
@@ -45,7 +36,9 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
+
+/* Card Set */
 
 .card-set {
   display: flex;
@@ -58,11 +51,23 @@
   flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
 }
 
-.section {
-  padding: 94px 0px;
-}
 
-/* reset styles */
+/* Base Styles */
+
+/* .section {
+  padding: 94px 0px;
+} */
+
+/* .container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+
+/* reset styles
 
 img {
   display: block;
@@ -91,7 +96,7 @@ ul {
 
 h2 {
   margin-bottom: 50px;
-}
+} */
 
 /* .link {
     text-decoration:  none;
