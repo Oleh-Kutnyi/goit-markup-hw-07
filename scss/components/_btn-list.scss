@@ -1,0 +1,35 @@
+.btn-list__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--team-background-color);
+    border-radius: 4px;
+    color: var(--title-color);
+    cursor: pointer;
+    border: 0px;
+    padding: 6px 22px;
+
+    transition-property: color, background-color, border, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-list__item {
+    margin-right: 8px;
+}
+
+.btn-list__item:last-child {
+    margin-right: 0px;
+}
+
+.btn-list__btn:hover,
+.btn-list__btn:active,
+.btn-list__btn:focus {
+    color: var(--pure-white-color);
+    background-color: var(--blue-color-text);
+    border: var(--blue-color-text) 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}

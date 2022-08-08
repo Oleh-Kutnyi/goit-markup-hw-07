@@ -557,16 +557,16 @@ h2 {
 /* Main */
 /* < !-- Portfolio Button List --> */
 
-.button-flexbox {
+/* .button-flexbox {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
+} */
 
-.btn-list__btn {
+/* .btn-list__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -600,11 +600,11 @@ h2 {
   border: var(--blue-color-text) 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* < !-- Portfolio Interective Images List --> */
 
-.grid {
+/* .grid {
   --items: 9;
 }
 
@@ -684,7 +684,7 @@ h2 {
   color: #ffffff;
 
   text-align: left;
-}
+} */
 
 /* Footer  */
 
