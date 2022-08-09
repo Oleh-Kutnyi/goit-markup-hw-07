@@ -27,7 +27,7 @@
     &__list {
         display: flex;
     }
-
+    
     &__item {
         font-style: normal;
         font-weight: 500;
@@ -36,7 +36,7 @@
         letter-spacing: 0.02em;
         color: var(--title-color);
         margin-right: 50px;
-    
+        
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -44,8 +44,13 @@
         &:last-child {
             margin-right: 0;
         }
+        
+        &:hover,
+        .header-nav__link:focus {
+            color: var(--blue-color-text);
+        }
     }
-
+    
     &__contacts {
         font-style: normal;
         font-weight: 500;
@@ -64,6 +69,13 @@
         &:focus {
             color: var(--blue-color-text);
         }
+            &:hover .header-nav__icon {
+                fill: var(--blue-color-text);
+            }
+            
+            &:focus .header-nav__icon {
+                fill: var(--blue-color-text);
+            }
     }
 
 
@@ -82,16 +94,5 @@
 }
 
 
-.header-nav__item:hover,
-.header-nav__link:focus {
-    color: var(--blue-color-text);
-}
 
-.header-nav__contacts:hover .header-nav__icon {
-    fill: var(--blue-color-text);
-}
-
-.header-nav__contacts:focus .header-nav__icon {
-    fill: var(--blue-color-text);
-}
 

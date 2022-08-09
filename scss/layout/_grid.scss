@@ -40,6 +40,10 @@
     &__item {
         position: relative;
         overflow: hidden;
+        
+        &:hover .grid__overlay {
+            transform: translateY(0);
+        }
     }
     
     &__overlay {
@@ -76,7 +80,4 @@
 }
 
 
-.grid__item:hover .grid__overlay {
-    transform: translateY(0);
-}
 
